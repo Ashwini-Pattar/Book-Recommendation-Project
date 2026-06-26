@@ -682,19 +682,7 @@ def main():
                     """,
                     unsafe_allow_html=True,
                 )
-
-    # ── Footer ──────────────────────────────
-    st.markdown(
-        """
-        <div class="footer">
-            <strong style="color:#818cf8;">BookAI — Hybrid Recommendation System</strong><br>
-            Built with ❤️ using <a href="https://streamlit.io">Streamlit</a> · 
-            Powered by KNN · SVD · TF-IDF · Cosine Similarity<br>
-            BCA Final Year Project · 2025
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+ 
 
 
 if __name__ == "__main__":
